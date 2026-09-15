@@ -1,8 +1,6 @@
 name: 'PHPStan Analysis'
 
-on:
-    workflow_dispatch:
-      
+on:      
     pull_request:
         paths:
             - 'plugins/woocommerce/**/*.php'
